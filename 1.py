@@ -1,4 +1,4 @@
-age=7+5
+age=7+10
 '''
 this is my bla
 bla lalalal
@@ -11,5 +11,3 @@ else:
     Name=""
     Name=input("What's my name: ")
     print(Name+" has "+str(age)+" years old")
-
-
