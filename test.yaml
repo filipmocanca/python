@@ -1,7 +1,12 @@
-apiVersion: v2
-kind: ConfigMap
+apiVersion: v1
+kind: Pod
 metadata:
-  name: my-config
-data:
-  key1: value1
-  key2: value2
+  name: nginx-2
+  labels:
+    env: production
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.14.2
+      ports:
+        - containerPort: 80
