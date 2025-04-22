@@ -3,7 +3,7 @@ age=7+11
 this is my bla
 bla lalalal
 '''
-name="Krish"
+name="Krishana"
 
 if age>30:
     print(age)
